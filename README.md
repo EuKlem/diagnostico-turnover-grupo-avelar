@@ -6,6 +6,23 @@ Projeto **People Analytics**: do tratamento dos dados em Python a um **dashboard
 
 ---
 
+## Prévia
+
+![Visão Executiva](capturas/Visao-Executiva.png)
+
+<details>
+<summary>Ver as outras páginas</summary>
+
+![Quem Está Saindo](capturas/Quem-Esta-Saindo.png)
+
+![Por Que Estão Saindo](capturas/Por-que-estao-saindo.png)
+
+![Impacto Financeiro](capturas/Impacto-Financeiro.png)
+
+</details>
+
+---
+
 ## O problema
 
 A diretora de Pessoas & Cultura precisa entender o turnover da rede antes de uma reunião de conselho. Hoje ela só tem planilhas soltas de desligamento, sem comparação nem cruzamento. O dashboard responde a cinco perguntas:
