@@ -1,0 +1,1054 @@
+{
+  "departamentos": [
+    "Todos",
+    "Logística & CD",
+    "Operações de Loja",
+    "Administrativo & Suporte"
+  ],
+  "dados": {
+    "Todos": {
+      "meta": {
+        "dataset": "IBM HR Analytics Employee Attrition",
+        "empresa_ficticia": "Grupo Avelar",
+        "periodo": "T2 2025",
+        "n_total": 1470,
+        "n_saidas": 237,
+        "premissas": {
+          "custo_por_saida": "50% do salário anual (6 × salário mensal)",
+          "indice_satisfacao": "média de JobSatisfaction (1–4) normalizada para 0–10",
+          "rotulos": "de-para documentado de categorias técnicas para nomes de varejo",
+          "colunas_descartadas": [
+            "EmployeeCount",
+            "Over18",
+            "StandardHours"
+          ]
+        }
+      },
+      "kpis": {
+        "turnover_geral": 16.1,
+        "tempo_medio_casa": 7.0,
+        "indice_satisfacao": 6.8,
+        "custo_total": 6807246
+      },
+      "exec": {
+        "turnover_faixa_etaria": [
+          {
+            "faixa": "Até 25",
+            "n": 123,
+            "taxa": 35.8
+          },
+          {
+            "faixa": "26–35",
+            "n": 606,
+            "taxa": 19.1
+          },
+          {
+            "faixa": "36–45",
+            "n": 468,
+            "taxa": 9.2
+          },
+          {
+            "faixa": "46–55",
+            "n": 226,
+            "taxa": 11.5
+          },
+          {
+            "faixa": "56+",
+            "n": 47,
+            "taxa": 17.0
+          }
+        ],
+        "desligados_por_nivel": [
+          {
+            "nivel": "Operacional",
+            "n": 143,
+            "pct": 60.3
+          },
+          {
+            "nivel": "Pleno",
+            "n": 52,
+            "pct": 21.9
+          },
+          {
+            "nivel": "Especialista",
+            "n": 32,
+            "pct": 13.5
+          },
+          {
+            "nivel": "Coordenação",
+            "n": 5,
+            "pct": 2.1
+          },
+          {
+            "nivel": "Diretoria",
+            "n": 5,
+            "pct": 2.1
+          }
+        ],
+        "tempo_casa_saida": [
+          {
+            "faixa": "Menos de 2 anos",
+            "pct": 31.6
+          },
+          {
+            "faixa": "2 a 5 anos",
+            "pct": 36.7
+          },
+          {
+            "faixa": "Mais de 5 anos",
+            "pct": 31.6
+          }
+        ]
+      },
+      "quem": {
+        "por_departamento": [
+          {
+            "departamento": "Logística & CD",
+            "headcount": 961,
+            "n_saidas": 133,
+            "share_saidas": 56.1,
+            "taxa": 13.8
+          },
+          {
+            "departamento": "Operações de Loja",
+            "headcount": 446,
+            "n_saidas": 92,
+            "share_saidas": 38.8,
+            "taxa": 20.6
+          },
+          {
+            "departamento": "Administrativo & Suporte",
+            "headcount": 63,
+            "n_saidas": 12,
+            "share_saidas": 5.1,
+            "taxa": 19.0
+          }
+        ],
+        "ranking_cargos": [
+          {
+            "cargo": "Operador de Caixa",
+            "headcount": 83,
+            "taxa": 39.8
+          },
+          {
+            "cargo": "Repositor",
+            "headcount": 259,
+            "taxa": 23.9
+          },
+          {
+            "cargo": "Auxiliar Administrativo",
+            "headcount": 52,
+            "taxa": 23.1
+          },
+          {
+            "cargo": "Vendedor",
+            "headcount": 326,
+            "taxa": 17.5
+          },
+          {
+            "cargo": "Auxiliar de Logística",
+            "headcount": 292,
+            "taxa": 16.1
+          },
+          {
+            "cargo": "Coordenador de CD",
+            "headcount": 145,
+            "taxa": 6.9
+          },
+          {
+            "cargo": "Supervisor de Loja",
+            "headcount": 131,
+            "taxa": 6.9
+          },
+          {
+            "cargo": "Gerente de Loja",
+            "headcount": 102,
+            "taxa": 4.9
+          },
+          {
+            "cargo": "Gerente Regional",
+            "headcount": 80,
+            "taxa": 2.5
+          }
+        ],
+        "por_faixa_salarial": [
+          {
+            "faixa": "Até R$ 3 mil",
+            "n": 395,
+            "taxa": 28.6
+          },
+          {
+            "faixa": "R$ 3 – 5 mil",
+            "n": 354,
+            "taxa": 14.1
+          },
+          {
+            "faixa": "R$ 5 – 8 mil",
+            "n": 340,
+            "taxa": 10.0
+          },
+          {
+            "faixa": "R$ 8 – 12 mil",
+            "n": 186,
+            "taxa": 15.6
+          },
+          {
+            "faixa": "Acima de R$ 12 mil",
+            "n": 195,
+            "taxa": 5.6
+          }
+        ],
+        "departamentos_status": [
+          {
+            "departamento": "Logística & CD",
+            "headcount": 961,
+            "turnover": 13.8,
+            "status": "Estável"
+          },
+          {
+            "departamento": "Operações de Loja",
+            "headcount": 446,
+            "turnover": 20.6,
+            "status": "Crítico"
+          },
+          {
+            "departamento": "Administrativo & Suporte",
+            "headcount": 63,
+            "turnover": 19.0,
+            "status": "Crítico"
+          }
+        ]
+      },
+      "porque": {
+        "comparativos": {
+          "satisfacao": {
+            "saiu": 6.2,
+            "ficou": 6.9,
+            "escala": 10,
+            "unidade": "/10",
+            "pior": "menor"
+          },
+          "hora_extra": {
+            "saiu": 53.6,
+            "ficou": 23.4,
+            "escala": 100,
+            "unidade": "%",
+            "pior": "maior"
+          },
+          "distancia": {
+            "saiu": 10.6,
+            "ficou": 8.9,
+            "escala": 29,
+            "unidade": " km",
+            "pior": "maior"
+          },
+          "equilibrio": {
+            "saiu": 2.7,
+            "ficou": 2.8,
+            "escala": 5,
+            "unidade": "/5",
+            "pior": "menor"
+          }
+        },
+        "razao_hora_extra": 2.3
+      },
+      "financeiro": {
+        "custo_total": 6807246,
+        "custo_medio": 28723,
+        "economia_potencial": 1361449,
+        "saidas_evitadas": 47,
+        "meta_reducao_pct": 20,
+        "cargos_risco": [
+          {
+            "cargo": "Vendedor",
+            "headcount": 326,
+            "custo_saida": 41546,
+            "risco": "Médio",
+            "impacto_anual": 2368122
+          },
+          {
+            "cargo": "Repositor",
+            "headcount": 259,
+            "custo_saida": 19423,
+            "risco": "Alto",
+            "impacto_anual": 1204226
+          },
+          {
+            "cargo": "Auxiliar de Logística",
+            "headcount": 292,
+            "custo_saida": 19440,
+            "risco": "Médio",
+            "impacto_anual": 913680
+          },
+          {
+            "cargo": "Operador de Caixa",
+            "headcount": 83,
+            "custo_saida": 15756,
+            "risco": "Alto",
+            "impacto_anual": 519948
+          },
+          {
+            "cargo": "Gerente de Loja",
+            "headcount": 102,
+            "custo_saida": 103090,
+            "risco": "Baixo",
+            "impacto_anual": 515450
+          },
+          {
+            "cargo": "Coordenador de CD",
+            "headcount": 145,
+            "custo_saida": 43771,
+            "risco": "Baixo",
+            "impacto_anual": 437710
+          },
+          {
+            "cargo": "Supervisor de Loja",
+            "headcount": 131,
+            "custo_saida": 45173,
+            "risco": "Baixo",
+            "impacto_anual": 406557
+          },
+          {
+            "cargo": "Auxiliar Administrativo",
+            "headcount": 52,
+            "custo_saida": 25414,
+            "risco": "Alto",
+            "impacto_anual": 304968
+          },
+          {
+            "cargo": "Gerente Regional",
+            "headcount": 80,
+            "custo_saida": 96201,
+            "risco": "Baixo",
+            "impacto_anual": 192402
+          }
+        ],
+        "custo_por_departamento": [
+          {
+            "departamento": "Logística & CD",
+            "custo": 3278244,
+            "pct": 48.2
+          },
+          {
+            "departamento": "Operações de Loja",
+            "custo": 3261468,
+            "pct": 47.9
+          },
+          {
+            "departamento": "Administrativo & Suporte",
+            "custo": 267534,
+            "pct": 3.9
+          }
+        ]
+      }
+    },
+    "Logística & CD": {
+      "meta": {
+        "dataset": "IBM HR Analytics Employee Attrition",
+        "empresa_ficticia": "Grupo Avelar",
+        "periodo": "T2 2025",
+        "n_total": 961,
+        "n_saidas": 133,
+        "premissas": {
+          "custo_por_saida": "50% do salário anual (6 × salário mensal)",
+          "indice_satisfacao": "média de JobSatisfaction (1–4) normalizada para 0–10",
+          "rotulos": "de-para documentado de categorias técnicas para nomes de varejo",
+          "colunas_descartadas": [
+            "EmployeeCount",
+            "Over18",
+            "StandardHours"
+          ]
+        }
+      },
+      "kpis": {
+        "turnover_geral": 13.8,
+        "tempo_medio_casa": 6.9,
+        "indice_satisfacao": 6.8,
+        "custo_total": 3278244
+      },
+      "exec": {
+        "turnover_faixa_etaria": [
+          {
+            "faixa": "Até 25",
+            "n": 78,
+            "taxa": 30.8
+          },
+          {
+            "faixa": "26–35",
+            "n": 389,
+            "taxa": 17.2
+          },
+          {
+            "faixa": "36–45",
+            "n": 317,
+            "taxa": 7.9
+          },
+          {
+            "faixa": "46–55",
+            "n": 146,
+            "taxa": 6.2
+          },
+          {
+            "faixa": "56+",
+            "n": 31,
+            "taxa": 25.8
+          }
+        ],
+        "desligados_por_nivel": [
+          {
+            "nivel": "Operacional",
+            "n": 101,
+            "pct": 75.9
+          },
+          {
+            "nivel": "Pleno",
+            "n": 15,
+            "pct": 11.3
+          },
+          {
+            "nivel": "Especialista",
+            "n": 13,
+            "pct": 9.8
+          },
+          {
+            "nivel": "Coordenação",
+            "n": 1,
+            "pct": 0.8
+          },
+          {
+            "nivel": "Diretoria",
+            "n": 3,
+            "pct": 2.3
+          }
+        ],
+        "tempo_casa_saida": [
+          {
+            "faixa": "Menos de 2 anos",
+            "pct": 35.3
+          },
+          {
+            "faixa": "2 a 5 anos",
+            "pct": 33.8
+          },
+          {
+            "faixa": "Mais de 5 anos",
+            "pct": 30.8
+          }
+        ]
+      },
+      "quem": {
+        "por_departamento": [
+          {
+            "departamento": "Logística & CD",
+            "headcount": 961,
+            "n_saidas": 133,
+            "share_saidas": 100.0,
+            "taxa": 13.8
+          }
+        ],
+        "ranking_cargos": [
+          {
+            "cargo": "Repositor",
+            "headcount": 259,
+            "taxa": 23.9
+          },
+          {
+            "cargo": "Auxiliar de Logística",
+            "headcount": 292,
+            "taxa": 16.1
+          },
+          {
+            "cargo": "Coordenador de CD",
+            "headcount": 145,
+            "taxa": 6.9
+          },
+          {
+            "cargo": "Supervisor de Loja",
+            "headcount": 131,
+            "taxa": 6.9
+          },
+          {
+            "cargo": "Gerente de Loja",
+            "headcount": 54,
+            "taxa": 5.6
+          },
+          {
+            "cargo": "Gerente Regional",
+            "headcount": 80,
+            "taxa": 2.5
+          }
+        ],
+        "por_faixa_salarial": [
+          {
+            "faixa": "Até R$ 3 mil",
+            "n": 301,
+            "taxa": 24.9
+          },
+          {
+            "faixa": "R$ 3 – 5 mil",
+            "n": 251,
+            "taxa": 13.9
+          },
+          {
+            "faixa": "R$ 5 – 8 mil",
+            "n": 179,
+            "taxa": 5.0
+          },
+          {
+            "faixa": "R$ 8 – 12 mil",
+            "n": 94,
+            "taxa": 9.6
+          },
+          {
+            "faixa": "Acima de R$ 12 mil",
+            "n": 136,
+            "taxa": 3.7
+          }
+        ],
+        "departamentos_status": [
+          {
+            "departamento": "Logística & CD",
+            "headcount": 961,
+            "turnover": 13.8,
+            "status": "Estável"
+          }
+        ]
+      },
+      "porque": {
+        "comparativos": {
+          "satisfacao": {
+            "saiu": 6.1,
+            "ficou": 6.9,
+            "escala": 10,
+            "unidade": "/10",
+            "pior": "menor"
+          },
+          "hora_extra": {
+            "saiu": 55.6,
+            "ficou": 23.8,
+            "escala": 100,
+            "unidade": "%",
+            "pior": "maior"
+          },
+          "distancia": {
+            "saiu": 10.3,
+            "ficou": 9.0,
+            "escala": 29,
+            "unidade": " km",
+            "pior": "maior"
+          },
+          "equilibrio": {
+            "saiu": 2.6,
+            "ficou": 2.7,
+            "escala": 5,
+            "unidade": "/5",
+            "pior": "menor"
+          }
+        },
+        "razao_hora_extra": 2.3
+      },
+      "financeiro": {
+        "custo_total": 3278244,
+        "custo_medio": 24648,
+        "economia_potencial": 655649,
+        "saidas_evitadas": 27,
+        "meta_reducao_pct": 20,
+        "cargos_risco": [
+          {
+            "cargo": "Repositor",
+            "headcount": 259,
+            "custo_saida": 19423,
+            "risco": "Alto",
+            "impacto_anual": 1204226
+          },
+          {
+            "cargo": "Auxiliar de Logística",
+            "headcount": 292,
+            "custo_saida": 19440,
+            "risco": "Médio",
+            "impacto_anual": 913680
+          },
+          {
+            "cargo": "Coordenador de CD",
+            "headcount": 145,
+            "custo_saida": 43771,
+            "risco": "Baixo",
+            "impacto_anual": 437710
+          },
+          {
+            "cargo": "Supervisor de Loja",
+            "headcount": 131,
+            "custo_saida": 45173,
+            "risco": "Baixo",
+            "impacto_anual": 406557
+          },
+          {
+            "cargo": "Gerente de Loja",
+            "headcount": 54,
+            "custo_saida": 102782,
+            "risco": "Baixo",
+            "impacto_anual": 308346
+          },
+          {
+            "cargo": "Gerente Regional",
+            "headcount": 80,
+            "custo_saida": 96201,
+            "risco": "Baixo",
+            "impacto_anual": 192402
+          }
+        ],
+        "custo_por_departamento": [
+          {
+            "departamento": "Logística & CD",
+            "custo": 3278244,
+            "pct": 100.0
+          }
+        ]
+      }
+    },
+    "Operações de Loja": {
+      "meta": {
+        "dataset": "IBM HR Analytics Employee Attrition",
+        "empresa_ficticia": "Grupo Avelar",
+        "periodo": "T2 2025",
+        "n_total": 446,
+        "n_saidas": 92,
+        "premissas": {
+          "custo_por_saida": "50% do salário anual (6 × salário mensal)",
+          "indice_satisfacao": "média de JobSatisfaction (1–4) normalizada para 0–10",
+          "rotulos": "de-para documentado de categorias técnicas para nomes de varejo",
+          "colunas_descartadas": [
+            "EmployeeCount",
+            "Over18",
+            "StandardHours"
+          ]
+        }
+      },
+      "kpis": {
+        "turnover_geral": 20.6,
+        "tempo_medio_casa": 7.3,
+        "indice_satisfacao": 6.9,
+        "custo_total": 3261468
+      },
+      "exec": {
+        "turnover_faixa_etaria": [
+          {
+            "faixa": "Até 25",
+            "n": 41,
+            "taxa": 43.9
+          },
+          {
+            "faixa": "26–35",
+            "n": 194,
+            "taxa": 21.1
+          },
+          {
+            "faixa": "36–45",
+            "n": 126,
+            "taxa": 12.7
+          },
+          {
+            "faixa": "46–55",
+            "n": 72,
+            "taxa": 23.6
+          },
+          {
+            "faixa": "56+",
+            "n": 13,
+            "taxa": 0.0
+          }
+        ],
+        "desligados_por_nivel": [
+          {
+            "nivel": "Operacional",
+            "n": 32,
+            "pct": 34.8
+          },
+          {
+            "nivel": "Pleno",
+            "n": 37,
+            "pct": 40.2
+          },
+          {
+            "nivel": "Especialista",
+            "n": 17,
+            "pct": 18.5
+          },
+          {
+            "nivel": "Coordenação",
+            "n": 4,
+            "pct": 4.3
+          },
+          {
+            "nivel": "Diretoria",
+            "n": 2,
+            "pct": 2.2
+          }
+        ],
+        "tempo_casa_saida": [
+          {
+            "faixa": "Menos de 2 anos",
+            "pct": 26.1
+          },
+          {
+            "faixa": "2 a 5 anos",
+            "pct": 39.1
+          },
+          {
+            "faixa": "Mais de 5 anos",
+            "pct": 34.8
+          }
+        ]
+      },
+      "quem": {
+        "por_departamento": [
+          {
+            "departamento": "Operações de Loja",
+            "headcount": 446,
+            "n_saidas": 92,
+            "share_saidas": 100.0,
+            "taxa": 20.6
+          }
+        ],
+        "ranking_cargos": [
+          {
+            "cargo": "Operador de Caixa",
+            "headcount": 83,
+            "taxa": 39.8
+          },
+          {
+            "cargo": "Vendedor",
+            "headcount": 326,
+            "taxa": 17.5
+          },
+          {
+            "cargo": "Gerente de Loja",
+            "headcount": 37,
+            "taxa": 5.4
+          }
+        ],
+        "por_faixa_salarial": [
+          {
+            "faixa": "Até R$ 3 mil",
+            "n": 68,
+            "taxa": 41.2
+          },
+          {
+            "faixa": "R$ 3 – 5 mil",
+            "n": 93,
+            "taxa": 16.1
+          },
+          {
+            "faixa": "R$ 5 – 8 mil",
+            "n": 150,
+            "taxa": 16.7
+          },
+          {
+            "faixa": "R$ 8 – 12 mil",
+            "n": 87,
+            "taxa": 20.7
+          },
+          {
+            "faixa": "Acima de R$ 12 mil",
+            "n": 48,
+            "taxa": 12.5
+          }
+        ],
+        "departamentos_status": [
+          {
+            "departamento": "Operações de Loja",
+            "headcount": 446,
+            "turnover": 20.6,
+            "status": "Crítico"
+          }
+        ]
+      },
+      "porque": {
+        "comparativos": {
+          "satisfacao": {
+            "saiu": 6.3,
+            "ficou": 7.0,
+            "escala": 10,
+            "unidade": "/10",
+            "pior": "menor"
+          },
+          "hora_extra": {
+            "saiu": 52.2,
+            "ficou": 22.6,
+            "escala": 100,
+            "unidade": "%",
+            "pior": "maior"
+          },
+          "distancia": {
+            "saiu": 10.8,
+            "ficou": 9.0,
+            "escala": 29,
+            "unidade": " km",
+            "pior": "maior"
+          },
+          "equilibrio": {
+            "saiu": 2.7,
+            "ficou": 2.8,
+            "escala": 5,
+            "unidade": "/5",
+            "pior": "menor"
+          }
+        },
+        "razao_hora_extra": 2.3
+      },
+      "financeiro": {
+        "custo_total": 3261468,
+        "custo_medio": 35451,
+        "economia_potencial": 652294,
+        "saidas_evitadas": 18,
+        "meta_reducao_pct": 20,
+        "cargos_risco": [
+          {
+            "cargo": "Vendedor",
+            "headcount": 326,
+            "custo_saida": 41546,
+            "risco": "Médio",
+            "impacto_anual": 2368122
+          },
+          {
+            "cargo": "Operador de Caixa",
+            "headcount": 83,
+            "custo_saida": 15756,
+            "risco": "Alto",
+            "impacto_anual": 519948
+          },
+          {
+            "cargo": "Gerente de Loja",
+            "headcount": 37,
+            "custo_saida": 101922,
+            "risco": "Baixo",
+            "impacto_anual": 203844
+          }
+        ],
+        "custo_por_departamento": [
+          {
+            "departamento": "Operações de Loja",
+            "custo": 3261468,
+            "pct": 100.0
+          }
+        ]
+      }
+    },
+    "Administrativo & Suporte": {
+      "meta": {
+        "dataset": "IBM HR Analytics Employee Attrition",
+        "empresa_ficticia": "Grupo Avelar",
+        "periodo": "T2 2025",
+        "n_total": 63,
+        "n_saidas": 12,
+        "premissas": {
+          "custo_por_saida": "50% do salário anual (6 × salário mensal)",
+          "indice_satisfacao": "média de JobSatisfaction (1–4) normalizada para 0–10",
+          "rotulos": "de-para documentado de categorias técnicas para nomes de varejo",
+          "colunas_descartadas": [
+            "EmployeeCount",
+            "Over18",
+            "StandardHours"
+          ]
+        }
+      },
+      "kpis": {
+        "turnover_geral": 19.0,
+        "tempo_medio_casa": 7.2,
+        "indice_satisfacao": 6.5,
+        "custo_total": 267534
+      },
+      "exec": {
+        "turnover_faixa_etaria": [
+          {
+            "faixa": "Até 25",
+            "n": 4,
+            "taxa": 50.0
+          },
+          {
+            "faixa": "26–35",
+            "n": 23,
+            "taxa": 34.8
+          },
+          {
+            "faixa": "36–45",
+            "n": 25,
+            "taxa": 8.0
+          },
+          {
+            "faixa": "46–55",
+            "n": 8,
+            "taxa": 0.0
+          },
+          {
+            "faixa": "56+",
+            "n": 3,
+            "taxa": 0.0
+          }
+        ],
+        "desligados_por_nivel": [
+          {
+            "nivel": "Operacional",
+            "n": 10,
+            "pct": 83.3
+          },
+          {
+            "nivel": "Pleno",
+            "n": 0,
+            "pct": 0.0
+          },
+          {
+            "nivel": "Especialista",
+            "n": 2,
+            "pct": 16.7
+          },
+          {
+            "nivel": "Coordenação",
+            "n": 0,
+            "pct": 0.0
+          },
+          {
+            "nivel": "Diretoria",
+            "n": 0,
+            "pct": 0.0
+          }
+        ],
+        "tempo_casa_saida": [
+          {
+            "faixa": "Menos de 2 anos",
+            "pct": 33.3
+          },
+          {
+            "faixa": "2 a 5 anos",
+            "pct": 50.0
+          },
+          {
+            "faixa": "Mais de 5 anos",
+            "pct": 16.7
+          }
+        ]
+      },
+      "quem": {
+        "por_departamento": [
+          {
+            "departamento": "Administrativo & Suporte",
+            "headcount": 63,
+            "n_saidas": 12,
+            "share_saidas": 100.0,
+            "taxa": 19.0
+          }
+        ],
+        "ranking_cargos": [
+          {
+            "cargo": "Auxiliar Administrativo",
+            "headcount": 52,
+            "taxa": 23.1
+          },
+          {
+            "cargo": "Gerente de Loja",
+            "headcount": 11,
+            "taxa": 0.0
+          }
+        ],
+        "por_faixa_salarial": [
+          {
+            "faixa": "Até R$ 3 mil",
+            "n": 26,
+            "taxa": 38.5
+          },
+          {
+            "faixa": "R$ 3 – 5 mil",
+            "n": 10,
+            "taxa": 0.0
+          },
+          {
+            "faixa": "R$ 5 – 8 mil",
+            "n": 11,
+            "taxa": 0.0
+          },
+          {
+            "faixa": "R$ 8 – 12 mil",
+            "n": 5,
+            "taxa": 40.0
+          },
+          {
+            "faixa": "Acima de R$ 12 mil",
+            "n": 11,
+            "taxa": 0.0
+          }
+        ],
+        "departamentos_status": [
+          {
+            "departamento": "Administrativo & Suporte",
+            "headcount": 63,
+            "turnover": 19.0,
+            "status": "Crítico"
+          }
+        ]
+      },
+      "porque": {
+        "comparativos": {
+          "satisfacao": {
+            "saiu": 5.4,
+            "ficou": 6.8,
+            "escala": 10,
+            "unidade": "/10",
+            "pior": "menor"
+          },
+          "hora_extra": {
+            "saiu": 41.7,
+            "ficou": 23.5,
+            "escala": 100,
+            "unidade": "%",
+            "pior": "maior"
+          },
+          "distancia": {
+            "saiu": 13.4,
+            "ficou": 7.6,
+            "escala": 26,
+            "unidade": " km",
+            "pior": "maior"
+          },
+          "equilibrio": {
+            "saiu": 2.9,
+            "ficou": 2.9,
+            "escala": 5,
+            "unidade": "/5",
+            "pior": "menor"
+          }
+        },
+        "razao_hora_extra": 1.8
+      },
+      "financeiro": {
+        "custo_total": 267534,
+        "custo_medio": 22294,
+        "economia_potencial": 53507,
+        "saidas_evitadas": 2,
+        "meta_reducao_pct": 20,
+        "cargos_risco": [
+          {
+            "cargo": "Auxiliar Administrativo",
+            "headcount": 52,
+            "custo_saida": 25414,
+            "risco": "Alto",
+            "impacto_anual": 304968
+          },
+          {
+            "cargo": "Gerente de Loja",
+            "headcount": 11,
+            "custo_saida": 108532,
+            "risco": "Baixo",
+            "impacto_anual": 0
+          }
+        ],
+        "custo_por_departamento": [
+          {
+            "departamento": "Administrativo & Suporte",
+            "custo": 267534,
+            "pct": 100.0
+          }
+        ]
+      }
+    }
+  }
+}

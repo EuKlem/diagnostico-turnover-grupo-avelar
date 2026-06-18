@@ -1,0 +1,16 @@
+# Scaffolding / referência de design (não faz parte do entregável)
+_design_unpacked/
+_unpack_design.ps1
+Diagnostico de Turnover - Grupo Avelar.html
+
+# Ferramentas locais
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
