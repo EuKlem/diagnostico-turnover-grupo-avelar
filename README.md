@@ -43,8 +43,6 @@ dados/
   turnover.json             Métricas agregadas (geral + por departamento)
   base_unificada.csv        Fato após o join
   fontes/                   As 3 fontes simuladas
-documentos/                 Premissas, modelo de dados e resumo executivo (.md + .pdf)
-capturas/                   Screenshots do dashboard
 ```
 
 **Créditos dos dados:** IBM HR Analytics Employee Attrition (dataset público, Kaggle). Projeto desenvolvido para fins de estudo e portfólio.
