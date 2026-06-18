@@ -22,9 +22,9 @@ Patrícia Nogueira, Diretora de Pessoas e Cultura, encaminhou a seguinte mensage
 
 Dataset **IBM HR Analytics Employee Attrition** (Kaggle, gratuito, ~1.470 funcionários):
 
-- **Fonte 1 - Cadastro/Folha**: idade, departamento, cargo, salário, tempo de empresa, distância de casa.
-- **Fonte 2 - Avaliação de desempenho**: nota de performance, horas extras, nível de envolvimento.
-- **Fonte 3 - Pesquisa de clima**: satisfação no trabalho, satisfação com o ambiente, equilíbrio vida-trabalho.
+- **Fonte 1 : Cadastro/Folha**: idade, departamento, cargo, salário, tempo de empresa, distância de casa.
+- **Fonte 2 : Avaliação de desempenho**: nota de performance, horas extras, nível de envolvimento.
+- **Fonte 3 : Pesquisa de clima**: satisfação no trabalho, satisfação com o ambiente, equilíbrio vida-trabalho.
 
 ## Arquitetura técnica (HTML, sem Fabric/Power BI)
 
@@ -43,7 +43,7 @@ Dataset **IBM HR Analytics Employee Attrition** (Kaggle, gratuito, ~1.470 funcio
 
 ## Estrutura do relatório
 
-- Página 1 — Visão executiva: KPIs principais e tendência de turnover no período
-- Página 2 — Quem está saindo: cruzamento por departamento, cargo e faixa salarial
-- Página 3 — Por que estão saindo: satisfação, hora extra, distância de casa, equilíbrio vida-trabalho
-- Página 4 — Impacto financeiro: custo estimado e cargos de maior risco
+- Página 1 : Visão executiva: KPIs principais e tendência de turnover no período
+- Página 2 : Quem está saindo: cruzamento por departamento, cargo e faixa salarial
+- Página 3 : Por que estão saindo: satisfação, hora extra, distância de casa, equilíbrio vida-trabalho
+- Página 4 : Impacto financeiro: custo estimado e cargos de maior risco
